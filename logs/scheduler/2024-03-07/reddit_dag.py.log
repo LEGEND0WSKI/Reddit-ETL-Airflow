@@ -1,0 +1,396 @@
+[2024-03-07T23:35:32.873+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:35:32.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:35:32.880+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:35:32.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:35:32.938+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:35:32.930+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:35:32.940+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:35:33.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.180 seconds
+[2024-03-07T23:36:03.204+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:36:03.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:36:03.208+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:36:03.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:36:03.250+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:36:03.240+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:36:03.251+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:36:03.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.094 seconds
+[2024-03-07T23:36:33.457+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:36:33.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:36:33.463+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:36:33.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:36:33.491+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:36:33.485+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:36:33.492+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:36:33.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.063 seconds
+[2024-03-07T23:37:03.759+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:37:03.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:37:03.881+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:37:03.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:37:04.036+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:37:04.031+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:37:04.037+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:37:04.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.888 seconds
+[2024-03-07T23:37:35.865+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:37:35.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:37:35.966+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:37:35.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:37:36.225+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:37:36.135+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:37:36.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:37:36.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.351 seconds
+[2024-03-07T23:38:07.295+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:38:07.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:38:07.433+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:38:07.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:38:07.842+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:38:07.811+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:38:07.846+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:38:08.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.310 seconds
+[2024-03-07T23:38:38.941+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:38:38.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:38:38.973+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:38:38.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:38:39.216+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:38:39.176+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:38:39.218+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:38:39.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.938 seconds
+[2024-03-07T23:39:10.357+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:39:10.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:39:10.363+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:39:10.362+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:39:10.402+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:39:10.395+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:39:10.403+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:39:10.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.119 seconds
+[2024-03-07T23:39:41.268+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:39:41.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:39:41.290+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:39:41.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:39:41.355+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:39:41.347+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:39:41.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:39:41.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.377 seconds
+[2024-03-07T23:40:11.616+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:40:11.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:40:11.628+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:40:11.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:40:11.711+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:40:11.701+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:40:11.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:40:11.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.161 seconds
+[2024-03-07T23:40:42.765+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:40:42.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:40:42.789+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:40:42.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:40:42.870+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:40:42.856+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:40:42.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:40:43.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.894 seconds
+[2024-03-07T23:41:13.945+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:41:13.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:41:13.957+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:41:13.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:41:14.033+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:41:14.020+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:41:14.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:41:14.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.176 seconds
+[2024-03-07T23:41:44.198+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:41:44.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:41:44.210+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:41:44.210+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:41:44.259+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:41:44.255+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:41:44.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:41:44.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.111 seconds
+[2024-03-07T23:42:14.502+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:42:14.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:42:14.511+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:42:14.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:42:14.557+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:42:14.551+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:42:14.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:42:14.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.118 seconds
+[2024-03-07T23:42:45.634+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:42:45.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:42:45.684+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:42:45.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:42:46.414+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:42:46.361+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:42:46.419+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:42:46.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.086 seconds
+[2024-03-07T23:43:18.265+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:43:18.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:43:18.394+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:43:18.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:43:18.761+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:43:18.730+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:43:18.764+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:43:19.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.958 seconds
+[2024-03-07T23:43:50.107+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:43:50.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:43:50.280+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:43:50.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:43:50.652+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:43:50.604+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:43:50.655+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:43:51.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.246 seconds
+[2024-03-07T23:44:21.440+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:44:21.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:44:21.463+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:44:21.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:44:21.514+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:44:21.500+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:44:21.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:44:21.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.143 seconds
+[2024-03-07T23:44:51.679+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:44:51.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:44:51.685+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:44:51.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:44:51.714+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:44:51.709+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:44:51.715+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:44:51.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.076 seconds
+[2024-03-07T23:45:21.970+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:45:21.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:45:21.974+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:45:21.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:45:22.004+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:45:21.995+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:45:22.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:45:22.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.060 seconds
+[2024-03-07T23:45:52.279+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:45:52.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:45:52.286+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:45:52.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:45:52.309+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:45:52.303+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:45:52.310+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:45:52.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.062 seconds
+[2024-03-07T23:46:22.501+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:46:22.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-03-07T23:46:22.503+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:46:22.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:46:22.525+0000] {logging_mixin.py:188} INFO - [2024-03-07T23:46:22.521+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 24, in <module>
+    extract = PythonOperator(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 186, in __init__
+    raise AirflowException("`python_callable` param must be callable")
+airflow.exceptions.AirflowException: `python_callable` param must be callable
+[2024-03-07T23:46:22.525+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-03-07T23:46:22.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.049 seconds
