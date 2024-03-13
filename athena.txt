@@ -1,0 +1,19 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS [Enter a name for table] (
+    id STRING,
+    title STRING,
+    selftext STRING,
+    score INT,
+    num_comments INT,
+    author STRING,
+    created_utc TIMESTAMP,
+    url STRING,
+    upvote_ratio DECIMAL(5,2),
+    over_18 BOOLEAN,
+    edited BOOLEAN,
+    spoiler BOOLEAN,
+    stickied BOOLEAN
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION 's3://[enter file location here**not file name**]';
